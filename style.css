@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Lavishly+Yours&family=Oleo+Script:wght@700&family=Rubik+Puddles&family=Satisfy&family=Tangerine:wght@700&family=Updock&family=Yellowtail&display=swap');
+body{
+    background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+}
+h1{
+    font-size: 1em;
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+/*font-family: 'Cookie', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lavishly Yours', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Updock', cursive;
+font-family: 'Yellowtail', cursive;*/
+font-family: 'Ubantu',sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 65px;
+    padding:0 8px;
+}
+.brand{
+    display: flex;
+    align-items:center;
+    font-weight: bolder;
+    font-size: 2.0rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    color:white;font-family: 'Varela Round',sans-serif;
+    display: flex;
+    
+    margin: 23px auto;
+    background-image:url('bg.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.bottom{
+    position:fixed;
+    height: 78px;
+    background-color:black ;
+    color: white;
+    bottom: 0px;
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myprogressbar{
+width:80vw;
+text-align: center;
+cursor: pointer;
+}
+
+.songitemcontaier{
+    margin-top: 40px;
+}
+.songitem{
+height: 50px;
+display:flex;
+background-color:white;
+width: 100%;
+color: black;
+margin:12px 0 ;
+margin-left: 20px;
+margin-right: 20px;
+
+text-align: center;
+justify-content:space-evenly;
+border-radius: 40px;
+
+}
+.songitem img{
+    width:60px;
+    margin: 10 33px 0;
+    border-radius: 40px;
+}
+
+
+.p{
+    margin:0 23px;
+}
+.songinfo{
+    position: absolute;
+    left:5vw
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity  0.1s ease-in;
+}
