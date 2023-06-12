@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Lavishly+Yours&family=Oleo+Script:wght@700&family=Rubik+Puddles&family=Satisfy&family=Tangerine:wght@700&family=Updock&family=Yellowtail&display=swap');
 body{
-    background-color: #FBDA61;
-background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    background-color: black;
+
 
 }
 h1{
@@ -28,7 +28,7 @@ nav ul{
     align-items: center;
     list-style-type: none;
     height: 70px;
-    background-color: black;
+    background-color:rgb(9, 11, 81);
     color: white;
 }
 nav ul li{
@@ -46,8 +46,8 @@ nav ul li{
 }
 .container{
     min-height: 72vh;
-    background-color: black;
-    color: white;
+    background-color: rgb(9, 11, 81);;
+    
     color:white;font-family: 'Varela Round',sans-serif;
     display: flex;
     
@@ -64,7 +64,7 @@ nav ul li{
 .bottom{
     position:fixed;
     height: 78px;
-    background-color:black ;
+    background-color:rgb(9, 11, 81);
     color: white;
     bottom: 0px;
     width:90%;
